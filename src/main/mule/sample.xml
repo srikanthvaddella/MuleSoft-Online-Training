@@ -10,6 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="sampleFlow" doc:id="6766bab4-d06e-44d8-a037-c482f13e0935" >
 		<http:listener doc:name="Listener" doc:id="64c38985-7495-4e48-bc2b-70ed28a9970b" config-ref="HTTP_Listener_config" path="/test"/>
 		<logger level="INFO" doc:name="Logger" doc:id="dd4f24de-026b-4c32-bf26-3d02c93cc4e5" />
-		<set-payload value="#['hello world']" doc:name="Set Payload" doc:id="c552e3e2-df77-4c92-bf9f-5e834b176ce0" />
+		<set-payload value="#['hello world 18-aug-2020']" doc:name="Set Payload" doc:id="c552e3e2-df77-4c92-bf9f-5e834b176ce0" />
 	</flow>
 </mule>
